@@ -16,7 +16,7 @@ var port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
 var mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost:27017/')
+mongoose.connect('mongodb+srv://rupaparayashu2006:FTUSWQ5razxIFiwZ@cluster0.sijar.mongodb.net/')
 .then((res) =>console.log('connected'))
 .catch((err) => console.log((err)));
 
